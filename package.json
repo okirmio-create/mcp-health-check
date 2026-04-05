@@ -1,0 +1,31 @@
+{
+  "name": "mcp-health-check",
+  "version": "1.0.0",
+  "description": "CLI tool to validate and health-check MCP (Model Context Protocol) servers",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "mcp-health-check": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "health-check",
+    "validation",
+    "cli",
+    "testing"
+  ],
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsup": "^8.4.0",
+    "typescript": "^5.8.2"
+  }
+}
