@@ -1,5 +1,5 @@
 {
-  "name": "mcp-health-check",
+  "name": "mcp-validator-cli",
   "version": "1.0.0",
   "description": "CLI tool to validate and health-check MCP (Model Context Protocol) servers",
   "license": "MIT",
